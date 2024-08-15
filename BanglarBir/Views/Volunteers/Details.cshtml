@@ -1,0 +1,58 @@
+﻿@model BanglarBir.Models.Volunteer
+
+@{
+    ViewData["Title"] = "Volunteer Details";
+}
+
+<style>
+    .loginButton {
+        color: #ffffff;
+        background-color: #ff4d4d;
+        border-color: #ff4d4d;
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Volunteer Details</h2>
+
+    <div class="card shadow-lg">
+        <div class="card-body">
+            <!-- Volunteer Name -->
+            <h4 class="card-title text-center mb-3">@Model.Name</h4>
+
+            <!-- Email or Phone -->
+            <p class="card-text"><strong>Email/Phone:</strong> @Model.EmailOrPhone</p>
+            <p class="card-text"><strong>NID/StudentID:</strong> @Model.NIdOrStudentId</p>
+
+            <!-- Location -->
+            <p class="card-text"><strong>Location:</strong> @Model.Location</p>
+
+            <!-- Facebook Profile URL -->
+            @if (!string.IsNullOrEmpty(Model.FbProfileUrl))
+            {
+                <p class="card-text"><strong>Facebook Profile:</strong> <a href="@Model.FbProfileUrl" target="_blank" class="text-primary">@Model.FbProfileUrl</a></p>
+            }
+
+            <!-- Student ID or NID Photo -->
+            <div class="text-center my-4">
+                @if (!string.IsNullOrEmpty(Model.StudentIdOrNidPhoto))
+                {
+                    <img src="@Model.StudentIdOrNidPhoto" alt="Student ID or NID Photo" class="img-fluid rounded shadow-sm" style="max-width: 100%; height: auto;" />
+                }
+                else
+                {
+                    <div class="alert alert-info">No photo available</div>
+                }
+            </div>
+
+            <!-- Back to List Button -->
+            <div class="text-center">
+                <a href="@Url.Action("Index", "volunteers")" class="btn loginButton">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Adding Bootstrap JS and Popper.js for functionality -->
+<script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>

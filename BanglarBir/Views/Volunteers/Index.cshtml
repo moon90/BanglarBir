@@ -1,0 +1,145 @@
+﻿@model BanglarBir.Models.Volunteer
+
+@{
+    ViewData["Title"] = "Volunteers";
+}
+
+<style>
+    .loginButton {
+        color: #ffffff;
+        background-color: #ff4d4d;
+        border-color: #ff4d4d;
+        border-radius: 0.25rem;
+        font-weight: bold;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+        color: #ffffff;
+        border-radius: 0.25rem;
+        font-weight: bold;
+    }
+
+    .card-header {
+        background-color: #28a745;
+        color: #ffffff;
+    }
+
+    .card-body img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.25rem;
+    }
+
+    .card-body img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.25rem;
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+    }
+
+    @@media (max-width: 767.98px) {
+        .card-body {
+            padding: 1rem;
+        }
+
+        .card-body img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5 class="card-title">People Data Collected</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">0+</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5 class="card-title">Victims Need Donation</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">0+</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5 class="card-title">BDT Donation Confirmed</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">0+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <h5>Volunteer Data</h5>
+            <div class="card text-center mb-4">
+                <div class="card-body">
+                    @if (!string.IsNullOrEmpty(Model.StudentIdOrNidPhoto))
+                    {
+                        <img src="@Model.StudentIdOrNidPhoto" alt="Student ID or NID Photo" class="img-fluid" />
+                    }
+                    else
+                    {
+                        <img src="https://via.placeholder.com/150" alt="Student ID or NID Photo" class="img-fluid" />
+                    }
+                </div>
+            </div>
+
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th>Volunteer Name</th>
+                        <td>@Model.Name</td>
+                    </tr>
+                    <tr>
+                        <th>NID/StudentID</th>
+                        <td>@Model.NIdOrStudentId</td>
+                    </tr>
+                    <tr>
+                        <th>Volunteer Serial/ID No.</th>
+                        <td>@Model.Id</td>
+                    </tr>
+                    <tr>
+                        <th>Location</th>
+                        <td>@Model.Location</td>
+                    </tr>
+                    <tr>
+                        <th>FB Profile URL</th>
+                        <td><a href="@Model.FbProfileUrl" target="_blank">@Model.FbProfileUrl</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="d-grid gap-2 mt-3">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <h5>Victim Data</h5>
+            <div class="d-grid gap-2">
+                <a href="/victims/create" class="btn loginButton">Add Victims</a>
+                <a href="/victims/victimsbyuser" class="btn btn-secondary">Update</a>
+            </div>
+        </div>
+    </div>
+</div>

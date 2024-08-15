@@ -1,0 +1,84 @@
+﻿@model BanglarBir.ViewModels.SignUpVM
+
+@{
+    ViewData["Title"] = "Sign Up";
+}
+
+<style>
+    .loginButton {
+        color: #ffffff;
+        background-color: #ff4d4d;
+        border-color: #ff4d4d;
+    }
+
+    .text-right {
+        text-align: right; /* Align the button container text to the right */
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Sign Up</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <form asp-action="SignUp" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input asp-for="Name" class="form-control" id="name" placeholder="Enter your name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailOrPhone" class="form-label">Email/Phone</label>
+                            <input asp-for="EmailOrPhone" class="form-control" id="emailOrPhone" placeholder="Enter your email or phone" />
+                            <span asp-validation-for="EmailOrPhone" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input asp-for="Password" class="form-control" id="password" type="password" placeholder="Enter your password" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input asp-for="ConfirmPassword" class="form-control" id="confirmPassword" type="password" placeholder="Confirm your password" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="location" class="form-label">Location</label>
+                            <input asp-for="Location" class="form-control" id="location" placeholder="Enter your location" />
+                            <span asp-validation-for="Location" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="fbProfileUrl" class="form-label">FB Profile URL</label>
+                            <input asp-for="FbProfileUrl" class="form-control" id="fbProfileUrl" placeholder="Enter your Facebook profile URL" />
+                            <span asp-validation-for="FbProfileUrl" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="location" class="form-label">Student ID/NID </label>
+                            <input asp-for="NIdOrStudentId" class="form-control" id="location" placeholder="Enter your location" />
+                            <span asp-validation-for="NIdOrStudentId" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="studentIdOrNidPhoto" class="form-label">Student ID/NID Photo</label>
+                            <input asp-for="StudentIdOrNidPhoto" type="file" class="form-control" id="studentIdOrNidPhoto" />
+                            <span asp-validation-for="StudentIdOrNidPhoto" class="text-danger"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <button type="submit" class="btn btn-primary loginButton">Sign Up</button>
+                            </div>
+                            <div class="col-md-6 mb-3 text-right">
+                                <a href="/home/index" class="btn btn-secondary loginButton">Back</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>

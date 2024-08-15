@@ -1,0 +1,121 @@
+﻿@model BanglarBir.Models.Volunteer
+
+@{
+    ViewData["Title"] = "Edit Volunteer";
+}
+
+<style>
+    .loginButton {
+        color: #ffffff;
+        background-color: #ff4d4d;
+        border-color: #ff4d4d;
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Edit Volunteer</h2>
+
+    <form asp-action="Edit" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="Password" />
+        <div class="card shadow-sm">
+            <div class="card-body">
+
+                <!-- Name Field -->
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <div class="form-text text-danger">
+                        <span asp-validation-for="Name"></span>
+                    </div>
+                </div>
+
+                <!-- Email or Phone Field -->
+                <div class="mb-3">
+                    <label asp-for="EmailOrPhone" class="form-label"></label>
+                    <input asp-for="EmailOrPhone" class="form-control" readonly ="readonly" />
+                    <div class="form-text text-danger">
+                        <span asp-validation-for="EmailOrPhone"></span>
+                    </div>
+                </div>
+
+                <!-- Password Field -->
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input asp-for="Password" type="text" class="form-control" />
+                    <div class="form-text text-danger">
+                        <span asp-validation-for="Password"></span>
+                    </div>
+                </div>
+
+                <!-- Location Field -->
+                <div class="mb-3">
+                    <label asp-for="Location" class="form-label"></label>
+                    <input asp-for="Location" class="form-control" />
+                    <div class="form-text text-danger">
+                        <span asp-validation-for="Location"></span>
+                    </div>
+                </div>
+
+                <!-- Facebook Profile URL Field -->
+                <div class="mb-3">
+                    <label asp-for="FbProfileUrl" class="form-label"></label>
+                    <input asp-for="FbProfileUrl" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="NIdOrStudentId" class="form-label">Student ID/NID </label>
+                    <input asp-for="NIdOrStudentId" class="form-control" id="NIdOrStudentId" placeholder="Enter your NIdOrStudentId" />
+                    <span asp-validation-for="NIdOrStudentId" class="text-danger"></span>
+                </div>
+
+                <!-- Student ID or NID Photo Upload -->
+                <div class="mb-3">
+                    <label asp-for="StudentIdOrNidPhoto" class="form-label">Upload Student ID or NID Photo</label>
+                    <input type="file" asp-for="StudentIdOrNidPhoto" class="form-control" />
+                </div>
+
+                <!-- Current Photo Display -->
+                @if (!string.IsNullOrEmpty(Model.StudentIdOrNidPhoto))
+                {
+                    <div class="mb-3">
+                        <label class="form-label">Current Uploaded Photo:</label>
+                        <div>
+                            <img src="@Model.StudentIdOrNidPhoto" alt="Student ID or NID Photo" class="img-fluid rounded shadow-sm" style="max-width: 150px;" />
+                        </div>
+                    </div>
+                }
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="mb-3">
+                        <label asp-for="Role" class="form-label"></label>
+                        <select asp-for="Role" class="form-select">
+                            @foreach (var option in ViewBag.Roles as List<SelectListItem>)
+                            {
+                                <option value="@option.Value">@option.Text</option>
+                            }
+                        </select>
+                        <span asp-validation-for="Role" class="text-danger"></span>
+                    </div>
+
+                }
+                else
+                {
+                    <input type="hidden" asp-for="Role" value="Volunteer" />
+                }
+
+
+                <!-- Save Button -->
+                <div class="text-center">
+                    <button type="submit" class="btn loginButton">Save</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- Including jQuery and validation scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>

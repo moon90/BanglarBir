@@ -1,0 +1,91 @@
+﻿@model BanglarBir.Models.Volunteer
+
+@{
+    ViewData["Title"] = "Create Volunteer";
+}
+
+<style>
+    .loginButton {
+        color: #ffffff;
+        background-color: #ff4d4d;
+        border-color: #ff4d4d;
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Create Volunteer</h2>
+
+    <form asp-action="Create" enctype="multipart/form-data">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <!-- Name Field -->
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- Email or Phone Field -->
+                <div class="mb-3">
+                    <label asp-for="EmailOrPhone" class="form-label"></label>
+                    <input asp-for="EmailOrPhone" class="form-control" placeholder="Enter Email or Phone" />
+                    <span asp-validation-for="EmailOrPhone" class="text-danger"></span>
+                </div>
+
+                <!-- Password Field -->
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Enter Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <!-- Location Field -->
+                <div class="mb-3">
+                    <label asp-for="Location" class="form-label"></label>
+                    <input asp-for="Location" class="form-control" placeholder="Enter Location" />
+                    <span asp-validation-for="Location" class="text-danger"></span>
+                </div>
+
+                <!-- Facebook Profile URL Field -->
+                <div class="mb-3">
+                    <label asp-for="FbProfileUrl" class="form-label"></label>
+                    <input asp-for="FbProfileUrl" class="form-control" placeholder="Enter Facebook Profile URL" />
+                    <span asp-validation-for="FbProfileUrl" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label for="location" class="form-label">Student ID/NID </label>
+                    <input asp-for="NIdOrStudentId" class="form-control" id="location" placeholder="Enter your location" />
+                    <span asp-validation-for="NIdOrStudentId" class="text-danger"></span>
+                </div>
+
+                <!-- Student ID or NID Photo Upload -->
+                <div class="mb-3">
+                    <label asp-for="StudentIdOrNidPhoto" class="form-label">Upload Student ID or NID Photo</label>
+                    <input type="file" asp-for="StudentIdOrNidPhoto" class="form-control" />
+                    @* <span asp-validation-for="StudentIdOrNidPhoto" class="text-danger"></span> *@
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Role" class="form-label"></label>
+                    <select asp-for="Role" class="form-select">
+                        @foreach (var option in ViewBag.Roles as List<SelectListItem>)
+                        {
+                            <option value="@option.Value">@option.Text</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="btn loginButton">Create</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- Adding Bootstrap JS and Popper.js for functionality -->
+<script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>

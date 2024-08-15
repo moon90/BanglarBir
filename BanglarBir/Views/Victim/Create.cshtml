@@ -1,0 +1,103 @@
+﻿@model BanglarBir.Models.Victim
+
+@{
+    ViewData["Title"] = "Create Victim";
+}
+
+<style>
+    .loginButton {
+        color: #ffffff;
+        background-color: #ff4d4d;
+        border-color: #ff4d4d;
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Create Victim</h2>
+
+    <form asp-action="Create" enctype="multipart/form-data">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <!-- Name Field -->
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- Phone Field -->
+                <div class="mb-3">
+                    <label asp-for="Phone" class="form-label"></label>
+                    <input asp-for="Phone" class="form-control" placeholder="Enter Phone Number" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <!-- Status Field -->
+                <div class="mb-3">
+                    <label asp-for="Status" class="form-label"></label>
+                    <select asp-for="Status" class="form-select">
+                        @foreach (var status in ViewBag.Statuses as List<SelectListItem>)
+                        {
+                            <option value="@status.Value">@status.Text</option>
+                        }
+                    </select>
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+
+                <!-- Location Field -->
+                <div class="mb-3">
+                    <label asp-for="Location" class="form-label"></label>
+                    <input asp-for="Location" class="form-control" placeholder="Enter Location" />
+                    <span asp-validation-for="Location" class="text-danger"></span>
+                </div>
+
+                <!-- bKash Number Field -->
+                <div class="mb-3">
+                    <label asp-for="bKashNumber" class="form-label"></label>
+                    <input asp-for="bKashNumber" class="form-control" placeholder="Enter bKash Number" />
+                    <span asp-validation-for="bKashNumber" class="text-danger"></span>
+                </div>
+
+                <!-- Donation Needed Field -->
+                <div class="mb-3">
+                    <label asp-for="DonationNeeded" class="form-label"></label>
+                    <select asp-for="DonationNeeded" class="form-select">
+                        @foreach (var option in ViewBag.DonationNeededOptions as List<SelectListItem>)
+                        {
+                            <option value="@option.Value">@option.Text</option>
+                        }
+                    </select>
+                    <span asp-validation-for="DonationNeeded" class="text-danger"></span>
+                </div>
+
+                <!-- Is Student Field -->
+                <div class="mb-3">
+                    <label asp-for="IsStudent" class="form-label"></label>
+                    <select asp-for="IsStudent" class="form-select">
+                        @foreach (var option in ViewBag.IsStudentOptions as List<SelectListItem>)
+                        {
+                            <option value="@option.Value">@option.Text</option>
+                        }
+                    </select>
+                    <span asp-validation-for="IsStudent" class="text-danger"></span>
+                </div>
+
+                <!-- Picture Upload -->
+                <div class="mb-3">
+                    <label asp-for="Picture" class="form-label">Upload Picture</label>
+                    <input type="file" asp-for="Picture" class="form-control" />
+                    <span asp-validation-for="Picture" class="text-danger"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="btn loginButton">Create Victim</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<!-- Adding Bootstrap JS and Popper.js for functionality -->
+<script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>

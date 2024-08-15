@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\PROJECTS\BanglarBir\BanglarBir\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-08-09T23:03:53.9239605Z;True|2024-08-09T15:24:40.1776319+06:00;True|2024-08-09T14:56:37.7154978+06:00;True|2024-08-09T14:43:52.6116383+06:00;True|2024-08-09T14:43:45.5623820+06:00;True|2024-08-09T11:53:02.7961120+06:00;True|2024-08-09T11:52:20.0640950+06:00;True|2024-08-09T11:11:42.8235452+06:00;True|2024-08-09T11:11:23.5674083+06:00;True|2024-08-09T04:22:36.1713948+06:00;True|2024-08-09T03:20:13.0600503+06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

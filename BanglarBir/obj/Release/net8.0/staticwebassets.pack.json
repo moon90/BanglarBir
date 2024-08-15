@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\BanglarBir.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BanglarBir.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\07e335ec-ec76-4bfe-bc01-509db4722f5c_1723220171929245023873591830337.jpg",
+      "PackagePath": "staticwebassets\\uploads\\07e335ec-ec76-4bfe-bc01-509db4722f5c_1723220171929245023873591830337.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\1cb17313-4d10-49fd-8d81-7472e6f526ea_Screenshot 2024-07-18 093636.png",
+      "PackagePath": "staticwebassets\\uploads\\1cb17313-4d10-49fd-8d81-7472e6f526ea_Screenshot 2024-07-18 093636.png"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\25923a5b-616d-4019-90c6-ec31bcbf4c10_Screenshot 2024-08-03 163256.png",
+      "PackagePath": "staticwebassets\\uploads\\25923a5b-616d-4019-90c6-ec31bcbf4c10_Screenshot 2024-08-03 163256.png"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\2c596225-1ab7-4377-8f7c-b8671aff172b_Screenshot 2024-08-08 114019.png",
+      "PackagePath": "staticwebassets\\uploads\\2c596225-1ab7-4377-8f7c-b8671aff172b_Screenshot 2024-08-08 114019.png"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\306d06da-9208-4536-b26d-ba5d2fb53dde_17232199813458284701453098666855.jpg",
+      "PackagePath": "staticwebassets\\uploads\\306d06da-9208-4536-b26d-ba5d2fb53dde_17232199813458284701453098666855.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\30c02904-dd96-42da-9c4e-e00be99ad4f9_1723219310618873957525507990081.jpg",
+      "PackagePath": "staticwebassets\\uploads\\30c02904-dd96-42da-9c4e-e00be99ad4f9_1723219310618873957525507990081.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\30e47a77-5127-4619-8577-576d1159638d_17232208540523797413702245135240.jpg",
+      "PackagePath": "staticwebassets\\uploads\\30e47a77-5127-4619-8577-576d1159638d_17232208540523797413702245135240.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\36523f3b-6abe-497e-b605-5f3800163ace_1723220559106200198746832718326.jpg",
+      "PackagePath": "staticwebassets\\uploads\\36523f3b-6abe-497e-b605-5f3800163ace_1723220559106200198746832718326.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\3f7ff880-f41e-48af-8447-c985819dbcd9_Kazi Aklakul Haither BD NID.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3f7ff880-f41e-48af-8447-c985819dbcd9_Kazi Aklakul Haither BD NID.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\40b18d45-a367-4982-9bd6-b9687aa77051_17232209706333337011879494997050.jpg",
+      "PackagePath": "staticwebassets\\uploads\\40b18d45-a367-4982-9bd6-b9687aa77051_17232209706333337011879494997050.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\48822758-3dc8-4708-9813-8edf292f0205_17232215523184439849191264365843.jpg",
+      "PackagePath": "staticwebassets\\uploads\\48822758-3dc8-4708-9813-8edf292f0205_17232215523184439849191264365843.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\4e21bb3d-080e-407b-a3b0-62f0fd4b274b_Messenger_creation_e89bd98d-fb0e-4bfe-87ac-31cea81d29ea.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\4e21bb3d-080e-407b-a3b0-62f0fd4b274b_Messenger_creation_e89bd98d-fb0e-4bfe-87ac-31cea81d29ea.jpeg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\5935bd24-a967-4a6c-adb8-462940a4d78c_17232217138787403034948551370386.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5935bd24-a967-4a6c-adb8-462940a4d78c_17232217138787403034948551370386.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\5b2ae682-1428-460e-8dcc-03ad2ee243f8_IMG-20240809-WA0002.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5b2ae682-1428-460e-8dcc-03ad2ee243f8_IMG-20240809-WA0002.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\5d77dfd7-b831-4aa9-86d1-f9a0ed5d4bd5_SAZ-32374_copy_300x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5d77dfd7-b831-4aa9-86d1-f9a0ed5d4bd5_SAZ-32374_copy_300x300.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\6c520576-1ee2-4f0b-8cb6-c9dfd1ced34c_Screenshot 2024-07-31 225714.png",
+      "PackagePath": "staticwebassets\\uploads\\6c520576-1ee2-4f0b-8cb6-c9dfd1ced34c_Screenshot 2024-07-31 225714.png"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\70156058-01c8-44bf-b07c-caae3c2e5233_17232142555804792966110567465163.jpg",
+      "PackagePath": "staticwebassets\\uploads\\70156058-01c8-44bf-b07c-caae3c2e5233_17232142555804792966110567465163.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\7b4674cc-0bd4-4ae9-aa0d-da74de59a3a4_17232194075917997911253661211997.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7b4674cc-0bd4-4ae9-aa0d-da74de59a3a4_17232194075917997911253661211997.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\7da165b0-d795-4a17-bca6-5b9b20770e12_17232196371776043749072930539217.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7da165b0-d795-4a17-bca6-5b9b20770e12_17232196371776043749072930539217.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\827587de-0c6a-4cda-b6f0-ec7b893b0fbd_Screenshot 2024-07-18 093636.png",
+      "PackagePath": "staticwebassets\\uploads\\827587de-0c6a-4cda-b6f0-ec7b893b0fbd_Screenshot 2024-07-18 093636.png"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\86348495-524a-4e9b-a16e-fcc999bbcb38_17232191210649174805890808081668.jpg",
+      "PackagePath": "staticwebassets\\uploads\\86348495-524a-4e9b-a16e-fcc999bbcb38_17232191210649174805890808081668.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\8c8ab58a-23fd-436c-8188-3a58d48aa43a_17232200620527195239781841135312.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8c8ab58a-23fd-436c-8188-3a58d48aa43a_17232200620527195239781841135312.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\8d52d188-73c5-44db-aa46-88ce1026303c_40b18d45-a367-4982-9bd6-b9687aa77051_17232209706333337011879494997050.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8d52d188-73c5-44db-aa46-88ce1026303c_40b18d45-a367-4982-9bd6-b9687aa77051_17232209706333337011879494997050.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\8f537ce7-51ac-465d-aae5-461b1614e516_17232216395598968158948624946705.jpg",
+      "PackagePath": "staticwebassets\\uploads\\8f537ce7-51ac-465d-aae5-461b1614e516_17232216395598968158948624946705.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\a376065d-786f-4bd5-8371-ed7ed3e7c7f6_Astaghfirullah..jpg",
+      "PackagePath": "staticwebassets\\uploads\\a376065d-786f-4bd5-8371-ed7ed3e7c7f6_Astaghfirullah..jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\a9604f8e-26c1-4a78-9158-09920262a29d_17232204529666789441719932153585.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a9604f8e-26c1-4a78-9158-09920262a29d_17232204529666789441719932153585.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\b437a585-9ba4-47f8-93ed-5ad9a386288a_17232206823795094118999058410956.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b437a585-9ba4-47f8-93ed-5ad9a386288a_17232206823795094118999058410956.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\ba9d165e-66cf-4cd6-961e-3df37457fa41_Astaghfirullah..jpg",
+      "PackagePath": "staticwebassets\\uploads\\ba9d165e-66cf-4cd6-961e-3df37457fa41_Astaghfirullah..jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\bb88810e-2f0b-44d6-b97a-dc33dd13bf03_17232207842963334028902479943172.jpg",
+      "PackagePath": "staticwebassets\\uploads\\bb88810e-2f0b-44d6-b97a-dc33dd13bf03_17232207842963334028902479943172.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\c4ea1708-ae53-4132-a491-f6b41c7c20c0_17232192045805031925089440478310.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c4ea1708-ae53-4132-a491-f6b41c7c20c0_17232192045805031925089440478310.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\c98992c7-6814-4548-9f54-c57a975dc5d3_17232274296922996481293526948144.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c98992c7-6814-4548-9f54-c57a975dc5d3_17232274296922996481293526948144.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\e3cdcead-0119-4e75-b28b-0db3782dd96d_17232195074562766405843815577620.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e3cdcead-0119-4e75-b28b-0db3782dd96d_17232195074562766405843815577620.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\e47117f7-07e6-4d58-b0de-12e645adf73a_Screenshot 2024-08-08 160257.png",
+      "PackagePath": "staticwebassets\\uploads\\e47117f7-07e6-4d58-b0de-12e645adf73a_Screenshot 2024-08-08 160257.png"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\eb6fbe5e-5473-4748-b850-7c38a909113a_1723220276763562272623689441850.jpg",
+      "PackagePath": "staticwebassets\\uploads\\eb6fbe5e-5473-4748-b850-7c38a909113a_1723220276763562272623689441850.jpg"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\f327a563-f6a2-4c60-a950-fd9c59b9efbd_Screenshot 2024-08-08 160257.png",
+      "PackagePath": "staticwebassets\\uploads\\f327a563-f6a2-4c60-a950-fd9c59b9efbd_Screenshot 2024-08-08 160257.png"
+    },
+    {
+      "Id": "D:\\PROJECTS\\BanglarBir\\BanglarBir\\wwwroot\\uploads\\f6838c2b-8891-4d60-b51b-d7e60828b8a1_17232198678415054097895331051669.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f6838c2b-8891-4d60-b51b-d7e60828b8a1_17232198678415054097895331051669.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.BanglarBir.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.BanglarBir.props",
+      "PackagePath": "build\\BanglarBir.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BanglarBir.props",
+      "PackagePath": "buildMultiTargeting\\BanglarBir.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.BanglarBir.props",
+      "PackagePath": "buildTransitive\\BanglarBir.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
